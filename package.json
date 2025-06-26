@@ -1,0 +1,21 @@
+{
+  "name": "facebook-marketplace-bot",
+  "version": "1.0.0",
+  "description": "Bot para automatizar criação de anúncios no Facebook Marketplace",
+  "main": "facebook_bot.js",
+  "scripts": {
+    "start": "node facebook_bot.js",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.0"
+  },
+  "keywords": [
+    "facebook",
+    "marketplace",
+    "automation",
+    "puppeteer"
+  ],
+  "author": "Facebook Marketplace Bot",
+  "license": "MIT"
+}
